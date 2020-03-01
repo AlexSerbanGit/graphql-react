@@ -1,10 +1,12 @@
 import React from 'react';
 import ApolloClient from 'apollo-boost';
 import {ApolloProvider} from '@apollo/react-hooks';
+import './index.css';
 
 // components
 import BookList from './components/BookList';
 import AddBook from './components/AddBook';
+import BookDetails from './components/BookDetails';
 
 // apollo client setup
 const client = new ApolloClient({
